@@ -13,9 +13,9 @@ const Schedule = () => {
 
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
-        <ScheduleDay day="10:30am - 11:00am" title="Kickoff and Orientation" />
-        <ScheduleDay day="11:00am - 11:00am (next day)" title="Building and Collaborating" />
-        <ScheduleDay day="11am - 12pm " title="Presentation and Judging" />
+        <ScheduleDay day="November 9th 9:00am - 9:30am " title="Kickoff and Orientation" />
+        <ScheduleDay day="11:00am - 11:00am" title="Building and Collaborating" />
+        <ScheduleDay day="November 10th 11am - 12pm " title="Presentation and Judging" />
         </div>
       </div>
     </section>

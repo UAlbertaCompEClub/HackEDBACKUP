@@ -49,7 +49,7 @@ const Faq = () => {
           {
             question: "How much is the event?",
             answer:
-              "Entry fee is $5 CAD.",
+              "The Event is completely free!",
           },
           {
             question: "When is the application deadline?",
@@ -109,7 +109,7 @@ const Faq = () => {
       {
         question: "Will there be prizes?",
         answer:
-          "Yes! There will be various prizes given out from the event, including trivia prizes, prizes for winning hacks, and possibly even prizes given out by sponsors. Just keep in mind that the prizes for winning hacks are based on teams of 4. 😉",
+          "Yes! There will be various prizes given out from the event, including trivia prizes, prizes for winning hacks, and possibly even prizes given out by sponsors.😉",
       },
       {
         question: "Can I work remotely?",
