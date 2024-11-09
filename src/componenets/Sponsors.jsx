@@ -1,5 +1,5 @@
 import React from 'react';
-import { sponsor, sponsor2, sponsor3, sponsor4, sponsor5, dive } from '../assets';
+import { sponsor, sponsor2, sponsor3, sponsor4, sponsor5, dive, restiv } from '../assets';
 
 const Sponsors = () => {
   return (
@@ -24,6 +24,7 @@ const Sponsors = () => {
         <div className="flex flex-wrap justify-center gap-8 mb-8">
           
           <SponsorLogo src={sponsor5} level="silver" />
+          <SponsorLogo src={restiv} level="silver" />
         </div>
 
         {/* Bronze Sponsors */}
