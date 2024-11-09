@@ -5,6 +5,7 @@ import sponsor4 from "./atb.png";
 import sponsor5 from "./enbridge-logo-vector.png";
 import dice from "./DICE.jpeg"
 import dive from "./Dive.png"
+import restiv from "./restiv.avif"
 
 export {
     sponsor,
@@ -13,5 +14,6 @@ export {
     sponsor4,
     sponsor5,
     dice,
-    dive
+    dive,
+    restiv
 };
