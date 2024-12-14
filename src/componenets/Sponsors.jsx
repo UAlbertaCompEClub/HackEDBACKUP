@@ -9,7 +9,7 @@ const Sponsors = () => {
           <span className="text-pink-500">SPONSORS</span>
         </h2>
         <p className="text-lg mb-8">
-          We're grateful for the support of our amazing sponsors who are making this event possible.
+          We're grateful for the support of our amazing sponsors who are making this event possible. Thank you to our Title Sponsor Lantern. Our Gold Sponsors Garmin and UofA Research and Innovation. And a special thanks to eHUB Entrepreneurship Centre. 
         </p>
 
 
