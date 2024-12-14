@@ -17,12 +17,12 @@ const Faq = () => {
       {
         question: "What happens at a hackathon?",
         answer:
-          "For 24 hours, participants work together in teams of 1 to 5 people to build a project. Teams can work on hardware or software projects. There is no limit on creativity. This hackathon acts as a sort of incubator to your mini projects as it provides a focused time to work on your idea with mentors and workshops to help you along. For the project, absolutely no code can be written before or after the 24 hour window, but feel free to plan or research before hand! At the end of the event, each team will present their work and will be judged for prizes.",
+          "For 48 hours, participants work together in teams of 1 to 5 people to build a project. Teams can work on hardware or software projects. There is no limit on creativity. This hackathon acts as a sort of incubator to your mini projects as it provides a focused time to work on your idea with mentors and workshops to help you along. For the project, absolutely no code can be written before or after the 24 hour window, but feel free to plan or research before hand! At the end of the event, each team will present their work and will be judged for prizes.",
       },
       {
-        question: "Where is HackED Beta hosted?",
+        question: "Where is HackED hosted?",
         answer:
-          "HackED Beta will be held at Donadeo Innovation Centre for Engineering - University of Alberta (Donadeo Innovation Centre for Engineering, 9211 116 Street Northwest 8th Floor Edmonton, AB).",
+          "HackED will be held at Donadeo Innovation Centre for Engineering - University of Alberta (Donadeo Innovation Centre for Engineering, 9211 116 Street Northwest 8th Floor Edmonton, AB).",
       },
       {
         question: "Do I need to know programming?",
@@ -30,12 +30,12 @@ const Faq = () => {
           "Not at all! The hackathon’s purpose is to create a welcoming and supportive environment to learn. This hackathon is specifically made for beginner hackers who have participated in no more than one prior hackathon. The hackathon has plenty of mentors and resources to help you work on your hack. It’s the best place to try something new.",
       },
       {
-        question: "Who organizes HackED Beta ?",
+        question: "Who organizes HackED?",
         answer:
-          "HackED Beta is an event by the Computer Engineering Club of the University of Alberta.",
+          "HackED is an event by the Computer Engineering Club of the University of Alberta.",
       },
       {
-        question: "HackED Beta is a competition but do I have to compete and present?",
+        question: "HackED is a competition but do I have to compete and present?",
         answer:
           "After hacking ends, judges will ask you to demo your work. However it is not mandatory, You can opt out before presentations begin on Sunday. That being said, presenting is highly recommended as part of the hackathon experience. Still, the most important part of this hackathon is that you come out of it having tried something new.",
       },
@@ -44,7 +44,7 @@ const Faq = () => {
         {
             question: "Where do I apply?",
             answer:
-              "You can use the section down below to purchase tickets, or follow the link at the top of the page to go to the eventbrite.",
+              "Applications will open soon, using the registration button above and our discord.",
           },
           {
             question: "How much is the event?",
@@ -54,12 +54,12 @@ const Faq = () => {
           {
             question: "When is the application deadline?",
             answer:
-            "TBD"
+            "TBD - Signups will open in January"
           },
           {
             question: "Who can apply?",
-            answer:
-              "To make this specifically a beginner targeted event, we allow any student who is in highschool or university, who is over the age of 18, and has participated in no more than one previous hackathon. Rare exceptions can be made if participants have little to no prior experience with hacking or programming in general. If you believe you are a novice hacker despite not meeting these requirements, contact hacked@compeclub.com for more information.",
+            answer:"Any student interested in participating, regardless of skill, faculty or school is welcome to join",
+              
           }
     ],
     Hacking: [
@@ -126,12 +126,12 @@ const Faq = () => {
         {
             question: "Can I volunteer instead?",
             answer:
-                "Of course! You can sign up here, or email hacked@compeclub.com if you're interested!",
+                "Of course! We will open sign-ups here soon, or email hacked@compeclub.com if you're interested!",
             },
             {
             question: "How can I sponsor this?",
             answer:
-                "If you and your company are interested in getting your APIs in hackers hand’s, face-to-face mentorship with students and general outreach with swag, prizes and/or traditional sponsorship, please reach out to us at hacked@compeclub.com and we can work out how HackED Beta can benefit you!",
+                "If you and your company are interested in getting your APIs in hackers hand’s, face-to-face mentorship with students and general outreach with swag, prizes and/or traditional sponsorship, please reach out to us at hacked@compeclub.com and we can work out how HackED can benefit you!",
             },
           {
             question: "I’ve got another question...",

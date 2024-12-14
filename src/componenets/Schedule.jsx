@@ -8,14 +8,14 @@ const Schedule = () => {
           <span className="text-pink-500">Schedule</span>
         </h2>
         <p className="text-lg mb-8">
-        Join us over the weekend of November 9th to hack your way to something new, whether you're learning to code for the first time or flexing your hacking muscle trying to build the next big thing. Bring on the challenge, bring your ideas to life.
+        Join us from February 15-17th to hack your way to something new, whether you're learning to code for the first time or flexing your hacking muscle trying to build the next big thing. Bring on the challenge, bring your ideas to life.
 
 
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
-        <ScheduleDay day="November 9th 9:00am - 9:30am " title="Kickoff and Orientation" />
-        <ScheduleDay day="11:00am - 11:00am" title="Building and Collaborating" />
-        <ScheduleDay day="November 10th 11am - 12pm " title="Presentation and Judging" />
+        <ScheduleDay day="February 15th 9:00am - 9:30am " title="Kickoff and Orientation" />
+       
+        <ScheduleDay day="February 17th 11am" title="Hacking Ends" />
         </div>
       </div>
     </section>
