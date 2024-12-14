@@ -44,7 +44,7 @@ const Faq = () => {
         {
             question: "Where do I apply?",
             answer:
-              "Applications will open soon, using the registeration button above and our discord",
+              "Applications will open soon, using the registration button above and our discord.",
           },
           {
             question: "How much is the event?",
