@@ -12,6 +12,15 @@ const Sponsors = () => {
           We're grateful for the support of our amazing sponsors who are making this event possible.
         </p>
 
+
+        {/* Title */}
+        <h3 className="text-2xl font-semibold mb-4 text-yellow-500">Title</h3>
+        <div className="flex flex-wrap justify-center gap-8 mb-8">
+            { <SponsorLogo src={lantern} /> */}
+          {/* <SponsorLogo src={sponsor4} level="gold" /> */}
+        </div>
+
+        
         {/* Gold Sponsors */}
         <h3 className="text-2xl font-semibold mb-4 text-yellow-500">Gold Sponsors</h3>
         <div className="flex flex-wrap justify-center gap-8 mb-8">
