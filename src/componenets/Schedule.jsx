@@ -22,7 +22,7 @@ const Schedule = () => {
             day="February 15th"
             time="9:00am - 9:30am"
             title="Kickoff and Orientation"
-            icon="\ud83c\udf10"
+            icon="🎰"
           />
           <ScheduleDay
             day="February 16th"
@@ -34,7 +34,7 @@ const Schedule = () => {
             day="February 17th"
             time="11:00am"
             title="Hacking Ends & Demos"
-            icon="\ud83c\udfa1"
+            icon="📡"
           />
         </div>
       </div>
