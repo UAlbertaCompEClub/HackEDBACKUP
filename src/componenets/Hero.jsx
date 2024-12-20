@@ -2,23 +2,40 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className="bg-gray-900 py-24">
-      <div className="container mx-auto text-center">
-        <h2 className="text-5xl font-bold mb-4">
-          HACKED
-          <br />
-          <span className="text-pink-500">2025</span>
-          <br />
-        </h2>
-        <p className="text-lg mb-8">
-        Hackathons are for designing, creating, and building awesome projects. This year HackED is a 48-hour hackathon from the Computer Engineering Club of the University of Alberta.
+    <section className="relative bg-gradient-to-r from-gray-900 via-black to-gray-900 py-24 overflow-hidden">
+      {/* Animated background */}
+      <div className="absolute inset-0 z-0 bg-gradient-to-br from-pink-500 via-purple-600 to-blue-500 opacity-20 animate-pulse"></div>
+      <div className="absolute inset-0 z-0 bg-noise opacity-10"></div>
+      
+      <div className="relative z-10 container mx-auto text-center px-4 sm:px-6 lg:px-8">
+        {/* Title */}
+        <h1 className="text-6xl md:text-7xl font-extrabold leading-tight text-white">
+          <span className="block">Welcome to</span>
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500">
+            HackED 2025
+          </span>
+        </h1>
 
+        {/* Subtitle */}
+        <p className="text-xl md:text-2xl mt-6 text-gray-300">
+          Innovate. Collaborate. Create. Join the University of Alberta’s biggest 48-hour hackathon and build the future with the brightest minds in tech!
         </p>
-        <button className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded-full">
-{/*         <a href="https://docs.google.com/forms/d/e/1FAIpQLSewv6xgpW_XlPPJ5bN2yMBpyniYIsH_ouZE1RlgKKe6EN2tIg/viewform" className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded-full"> */}
-  REGISTRATION OPEN SOON
-{/*         </a> */}
-        </button>
+
+        {/* Call-to-action */}
+        <div className="mt-8 flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+          <a
+            // href="https://docs.google.com/forms/d/e/1FAIpQLSewv6xgpW_XlPPJ5bN2yMBpyniYIsH_ouZE1RlgKKe6EN2tIg/viewform"
+            className="inline-block px-8 py-4 text-lg font-bold text-white bg-pink-500 hover:bg-pink-600 rounded-full shadow-lg transition-transform transform hover:scale-105"
+          >
+            Register Now
+          </a>
+          <a
+            href="#learn-more"
+            className="inline-block px-8 py-4 text-lg font-bold text-pink-500 border-2 border-pink-500 hover:bg-pink-500 hover:text-white rounded-full shadow-lg transition-transform transform hover:scale-105"
+          >
+            Learn More
+          </a>
+        </div>
       </div>
     </section>
   );
