@@ -1,27 +1,54 @@
-import React from 'react';
+import React from "react";
 
 const Header = () => {
   const handleSmoothScroll = (e, targetId) => {
     e.preventDefault();
     document.querySelector(targetId).scrollIntoView({
-      behavior: 'smooth'
+      behavior: "smooth",
     });
   };
+
   return (
-    <header id="header" className="bg-transparent text-cyan-600 p-4 flex flex-col md:flex-row justify-between items-center">
-      <h1 className="text-2xl font-bold">HACKED</h1>
-      <nav className="space-x-4 mt-2 md:mt-0">
-        <a href="#header" className="hover:text-cyan-100" onClick={(e) => handleSmoothScroll(e, '#header')}>Home</a>
-        <a href="#info" className="hover:text-cyan-300" onClick={(e) => handleSmoothScroll(e, '#info')}>Location</a>
-        <a href="#schedule" className="hover:text-cyan-300" onClick={(e) => handleSmoothScroll(e, '#schedule')}>Schedule</a>
-        <a href="#sponsors" className="hover:text-cyan-300" onClick={(e) => handleSmoothScroll(e, '#sponsors')}>Sponsors</a>
-        <a href="#faq" className="hover:text-cyan-300" onClick={(e) => handleSmoothScroll(e, '#faq')}>FAQ</a>
+    <header
+      id="header"
+      className="bg-gradient-to-r from-gray-900 via-black to-gray-900 text-white p-4 flex flex-col md:flex-row justify-between items-center shadow-lg"
+    >
+      {/* Logo */}
+      <h1 className="text-3xl font-extrabold tracking-widest">
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500">
+          HACKED
+        </span>
+      </h1>
+
+      {/* Navigation Links */}
+      <nav className="mt-4 md:mt-0 flex space-x-6">
+        {[
+          { label: "Home", id: "#header" },
+          { label: "Location", id: "#info" },
+          { label: "Schedule", id: "#schedule" },
+          { label: "Sponsors", id: "#sponsors" },
+          { label: "FAQ", id: "#faq" },
+        ].map((item) => (
+          <a
+            key={item.id}
+            href={item.id}
+            onClick={(e) => handleSmoothScroll(e, item.id)}
+            className="text-lg font-medium text-gray-300 hover:text-white transition duration-300"
+          >
+            {item.label}
+          </a>
+        ))}
       </nav>
-      <button className="bg-cyan-500 px-4 py-2 rounded hover:bg-cyan-600 mt-2 md:mt-0">
-{/*       <a className="bg-cyan- px-4 py-2 rounded hover:bg-cyan-600 mt-2 md:mt-0" href="https://docs.google.com/forms/d/e/1FAIpQLSewv6xgpW_XlPPJ5bN2yMBpyniYIsH_ouZE1RlgKKe6EN2tIg/viewform" > */}
-      REGISTRATION OPEN SOON
-{/*       </a>       */}
-      </button>
+
+      {/* CTA Button */}
+      <div className="mt-4 md:mt-0">
+        <a
+          // href="https://docs.google.com/forms/d/e/1FAIpQLSewv6xgpW_XlPPJ5bN2yMBpyniYIsH_ouZE1RlgKKe6EN2tIg/viewform"
+          className="inline-block bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 px-6 py-2 text-lg font-bold text-white rounded-full shadow-lg hover:scale-105 transform transition-transform"
+        >
+          Registration Open Soon
+        </a>
+      </div>
     </header>
   );
 };

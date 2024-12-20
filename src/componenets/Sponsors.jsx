@@ -3,19 +3,19 @@ import { sponsor, sponsor2, sponsor3, sponsor4, sponsor5, dive, restiv } from '.
 
 const Sponsors = () => {
   return (
-    <section id="sponsors" className="bg-gray-800 py-24">
+    <section id="sponsors" className="relative bg-gray-900 py-24 overflow-hidden">
+      {/* Background decorations */}
+      <div className="absolute inset-0">
+        <div className="bg-gradient-to-br from-pink-500 via-purple-500 to-blue-500 opacity-30 blur-2xl rounded-full w-96 h-96 top-10 left-20 animate-pulse"></div>
+        <div className="bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 opacity-30 blur-2xl rounded-full w-96 h-96 bottom-10 right-20 animate-pulse"></div>
+      </div>
       <div className="container mx-auto text-center">
         <h2 className="text-4xl font-bold mb-4">
-          <span className="text-pink-500">SPONSORS</span>
+          <span className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 mb-8">SPONSORS</span>
         </h2>
         <p className="text-lg mb-8">
           We're grateful for the support of our amazing sponsors who are making this event possible. Thank you to our Title Sponsor Lantern. Our Gold Sponsors Garmin and UofA Research and Innovation. And a special thanks to eHUB Entrepreneurship Centre. 
         </p>
-
-
-        
-
-        
         {/* Gold Sponsors */}
         <h3 className="text-2xl font-semibold mb-4 text-yellow-500">Gold Sponsors</h3>
         <div className="flex flex-wrap justify-center gap-8 mb-8">
