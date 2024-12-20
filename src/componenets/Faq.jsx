@@ -144,7 +144,7 @@ const Faq = () => {
 
   return (
     <div id="faq" className="faq-container bg-gray-900 p-6 rounded-lg shadow-md w-full mx-auto">
-      <h2 className="text-2xl font-bold text-center text-pink-500 mb-4">Frequently Asked Questions</h2>
+      <h2 className="text-center text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 mb-8">Frequently Asked Questions</h2>
       {Object.entries(faqCategories).map(([category, faqs], catIndex) => (
         <div key={catIndex} className="faq-category mb-4">
           <button
@@ -163,7 +163,7 @@ const Faq = () => {
                   {faq.question}
                 </button>
                 {activeIndex === index && (
-                  <div className="faq-answer bg-gray-800 p-4 rounded-md mt-2 shadow-sm">
+                  <div className="faq-answer p-4 rounded-md mt-2 shadow-sm text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500">
                     {faq.answer}
                   </div>
                 )}
