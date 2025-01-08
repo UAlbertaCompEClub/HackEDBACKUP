@@ -14,7 +14,7 @@ const Sponsors = () => {
           <span className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 mb-8">SPONSORS</span>
         </h2>
         <p className="text-lg mb-8">
-          We're grateful for the support of our amazing sponsors who are making this event possible. Thank you to our Title Sponsor Lantern. Our Gold Sponsors Garmin and UofA Research and Innovation. And a special thanks to eHUB Entrepreneurship Centre. 
+          {/* We're grateful for the support of our amazing sponsors who are making this event possible. Thank you to our Title Sponsor Lantern. Our Gold Sponsors Garmin and UofA Research and Innovation. And a special thanks to eHUB Entrepreneurship Centre.  */}
         </p>
         {/* Gold Sponsors */}
         <h3 className="text-2xl font-semibold mb-4 text-yellow-500">Gold Sponsors</h3>
