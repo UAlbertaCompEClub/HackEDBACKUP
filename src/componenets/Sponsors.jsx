@@ -19,22 +19,22 @@ const Sponsors = () => {
         {/* Gold Sponsors */}
         <h3 className="text-2xl font-semibold mb-4 text-yellow-500">Gold Sponsors</h3>
         <div className="flex flex-wrap justify-center gap-8 mb-8">
-            {/* <SponsorLogo src={sponsor2} level="gold" /> */}
+            <SponsorLogo src={sponsor2} level="gold" />
           {/* <SponsorLogo src={sponsor4} level="gold" /> */}
         </div>
 
         {/* Silver Sponsors */}
-        <h3 className="text-2xl font-semibold mb-4 text-gray-400">Silver Sponsors</h3>
+        {/* <h3 className="text-2xl font-semibold mb-4 text-gray-400">Silver Sponsors</h3>
         <div className="flex flex-wrap justify-center gap-8 mb-8">
           
-          {/* <SponsorLogo src={sponsor5} level="silver" /> */}
-          {/* <SponsorLogo src={restiv} level="silver" /> */}
-        </div>
+          <SponsorLogo src={sponsor5} level="silver" />
+          <SponsorLogo src={restiv} level="silver" />
+        </div> */}
 
         {/* Bronze Sponsors */}
         <h3 className="text-2xl font-semibold mb-4 text-yellow-700">Bronze Sponsors</h3>
         <div className="flex flex-wrap justify-center gap-8 mb-8">
-            {/* <SponsorLogo src={sponsor3} level="bronze" /> */}
+            <SponsorLogo src={sponsor3} level="bronze" />
           
         </div>
 
