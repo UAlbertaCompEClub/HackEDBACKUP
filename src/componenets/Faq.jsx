@@ -144,11 +144,13 @@ const Faq = () => {
 
   return (
     <div id="faq" className="faq-container bg-gray-900 p-6 rounded-lg shadow-md w-full mx-auto">
-      <h2 className="text-center text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 mb-8">Frequently Asked Questions</h2>
+      <h2 className="text-center text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 mb-8">
+        Frequently Asked Questions
+      </h2>
       {Object.entries(faqCategories).map(([category, faqs], catIndex) => (
         <div key={catIndex} className="faq-category mb-4">
           <button
-            className="category-title w-full text-left text-xl font-semibold py-2 px-4 bg-gray-800 text-white rounded-md shadow-sm hover:bg-gray-700 transition-colors"
+            className="category-title w-full text-left text-xl font-semibold py-2 px-4 bg-gray-800 text-teal-300 rounded-md shadow-sm hover:bg-gray-700 hover:text-teal-200 transition-colors"
             onClick={() => toggleCategory(category)}
           >
             {category}
@@ -157,13 +159,13 @@ const Faq = () => {
             faqs.map((faq, index) => (
               <div key={index} className="faq-item mb-3 ml-4">
                 <button
-                  className="faq-question w-full text-left text-lg font-medium py-2 px-4 bg-white rounded-md shadow-sm hover:bg-gray-50 transition-colors"
+                  className="faq-question w-full text-left text-lg font-medium py-2 px-4 bg-gray-700 text-teal-100 rounded-md shadow-sm hover:bg-gray-600 hover:text-teal-50 transition-colors"
                   onClick={() => toggleFaq(index)}
                 >
                   {faq.question}
                 </button>
                 {activeIndex === index && (
-                  <div className="faq-answer p-4 rounded-md mt-2 shadow-sm text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500">
+                  <div className="faq-answer p-4 rounded-md mt-2 shadow-sm text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-teal-500 to-blue-500">
                     {faq.answer}
                   </div>
                 )}
@@ -173,6 +175,5 @@ const Faq = () => {
       ))}
     </div>
   );
-};
-
+  };
 export default Faq;
