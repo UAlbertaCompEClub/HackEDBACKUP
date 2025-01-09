@@ -4,14 +4,14 @@ const Hero = () => {
   return (
     <section className="relative bg-gradient-to-r from-gray-900 via-black to-gray-900 py-24 overflow-hidden">
       {/* Animated background */}
-      <div className="absolute inset-0 z-0 bg-gradient-to-br from-pink-500 via-purple-600 to-blue-500 opacity-20 animate-pulse"></div>
+      <div className="absolute inset-0 z-0 bg-gradient-to-br from-teal-400 via-cyan-500 to-green-500 opacity-20 animate-pulse"></div>
       <div className="absolute inset-0 z-0 bg-noise opacity-10"></div>
       
       <div className="relative z-10 container mx-auto text-center px-4 sm:px-6 lg:px-8">
         {/* Title */}
         <h1 className="text-6xl md:text-7xl font-extrabold leading-tight text-white">
           <span className="block">Welcome to</span>
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 via-cyan-500 to-green-500">
             HackED 2025
           </span>
         </h1>
@@ -24,14 +24,14 @@ const Hero = () => {
         {/* Call-to-action */}
         <div className="mt-8 flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
           <a
-            // href="https://docs.google.com/forms/d/e/1FAIpQLSewv6xgpW_XlPPJ5bN2yMBpyniYIsH_ouZE1RlgKKe6EN2tIg/viewform"
-            className="inline-block px-8 py-4 text-lg font-bold text-white bg-pink-500 hover:bg-pink-600 rounded-full shadow-lg transition-transform transform hover:scale-105"
+            href="https://docs.google.com/forms/d/1ls6dmQELwGn8hvG5O2efnphKssnm5PJSZu2d0eOGtNY/edit"
+            className="inline-block px-8 py-4 text-lg font-bold text-white bg-teal-400 hover:bg-teal-500 rounded-full shadow-lg transition-transform transform hover:scale-105"
           >
             Register Now
           </a>
           <a
-            href="#learn-more"
-            className="inline-block px-8 py-4 text-lg font-bold text-pink-500 border-2 border-pink-500 hover:bg-pink-500 hover:text-white rounded-full shadow-lg transition-transform transform hover:scale-105"
+            href="#Home"
+            className="inline-block px-8 py-4 text-lg font-bold text-teal-400 border-2 border-teal-400 hover:bg-teal-400 hover:text-gray-900 rounded-full shadow-lg transition-transform transform hover:scale-105"
           >
             Learn More
           </a>

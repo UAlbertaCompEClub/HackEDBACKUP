@@ -5,12 +5,12 @@ const Schedule = () => {
     <section id="schedule" className="relative bg-gray-900 py-24 overflow-hidden">
       {/* Background decorations */}
       <div className="absolute inset-0">
-        <div className="bg-gradient-to-br from-pink-500 via-purple-500 to-blue-500 opacity-30 blur-2xl rounded-full w-96 h-96 top-10 left-20 animate-pulse"></div>
-        <div className="bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 opacity-30 blur-2xl rounded-full w-96 h-96 bottom-10 right-20 animate-pulse"></div>
+        <div className="bg-gradient-to-br from-green-400 via-teal-500 to-blue-500 opacity-40 blur-2xl rounded-full w-96 h-96 top-10 left-20 animate-pulse"></div>
+        <div className="bg-gradient-to-br from-blue-500 via-teal-500 to-green-400 opacity-40 blur-2xl rounded-full w-96 h-96 bottom-10 right-20 animate-pulse"></div>
       </div>
 
       <div className="container relative mx-auto text-center">
-        <h2 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 mb-8">
+        <h2 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 mb-8">
           Schedule
         </h2>
         <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-12">
@@ -46,7 +46,7 @@ const ScheduleDay = ({ day, time, title, icon }) => {
   return (
     <div className="bg-gray-800 bg-opacity-80 backdrop-filter backdrop-blur-lg rounded-lg shadow-lg p-8 transform transition duration-500 hover:scale-105 hover:bg-gray-700">
       <div className="text-6xl mb-4">{icon}</div>
-      <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 mb-2">
+      <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-teal-500 to-blue-500 mb-2">
         {day}
       </h3>
       <p className="text-lg text-gray-300 font-medium mb-4">{time}</p>

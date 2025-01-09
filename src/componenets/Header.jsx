@@ -15,7 +15,7 @@ const Header = () => {
     >
       {/* Logo */}
       <h1 className="text-3xl font-extrabold tracking-widest">
-        <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500">
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 via-cyan-500 to-green-500">
           HACKED
         </span>
       </h1>
@@ -42,13 +42,14 @@ const Header = () => {
 
       {/* CTA Button */}
       <div className="mt-4 md:mt-0">
-        <a
-          // href="https://docs.google.com/forms/d/e/1FAIpQLSewv6xgpW_XlPPJ5bN2yMBpyniYIsH_ouZE1RlgKKe6EN2tIg/viewform"
-          className="inline-block bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 px-6 py-2 text-lg font-bold text-white rounded-full shadow-lg hover:scale-105 transform transition-transform"
+        <a 
+          href="https://docs.google.com/forms/d/1ls6dmQELwGn8hvG5O2efnphKssnm5PJSZu2d0eOGtNY/edit" // Closed the href attribute properly
+          className="inline-block bg-gradient-to-r from-teal-400 via-cyan-500 to-green-500 px-6 py-2 text-lg font-bold text-gray-900 rounded-full shadow-lg hover:scale-105 transform transition-transform"
         >
           Registration Open Soon
         </a>
       </div>
+
     </header>
   );
 };
