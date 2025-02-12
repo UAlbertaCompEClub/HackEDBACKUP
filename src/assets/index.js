@@ -6,6 +6,9 @@ import sponsor5 from "./enbridge-logo-vector.png";
 import dice from "./DICE.jpeg"
 import dive from "./Dive.png"
 import restiv from "./restiv.avif"
+import cbc from "./cbc.png"
+import eng from './engUOFA.png';
+
 
 export {
     sponsor,
@@ -15,5 +18,7 @@ export {
     sponsor5,
     dice,
     dive,
-    restiv
+    restiv,
+    cbc,
+    eng
 };
