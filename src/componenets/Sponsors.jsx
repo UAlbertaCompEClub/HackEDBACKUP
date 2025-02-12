@@ -1,5 +1,5 @@
 import React from 'react';
-import { sponsor, sponsor2, sponsor3, sponsor4, sponsor5, dive, restiv } from '../assets';
+import { sponsor, sponsor2, sponsor3, sponsor4, sponsor5, dive, restiv, cbc, eng } from '../assets';
 
 const Sponsors = () => {
   return (
@@ -36,14 +36,20 @@ const Sponsors = () => {
           <SponsorLogo src={sponsor3} level="gold" />
         </div>
 
+        {/* General Sponsors */}
+        <h3 className="text-3xl font-semibold text-teal-600 mb-6">Other Sponsors</h3>
+        <div className="flex flex-wrap justify-center gap-10 mb-12">
+          <SponsorLogo src={cbc} level="silver" />
+          <SponsorLogo src={eng} level="silver" />
+        </div>
+
         {/* Special Sponsors */}
         <h3 className="text-3xl font-semibold text-teal-600 mb-6">Special Thanks</h3>
         <div className="flex flex-wrap justify-center gap-10 mb-12">
-          <SponsorLogo src={sponsor4} level="silver" />
+          <SponsorLogo src={dive} level="silver" />
         </div>
 
         {/* Special Thanks */}
-        <h3 className="text-3xl font-semibold text-blue-400 mb-6">Special Thanks</h3>
         <p className="text-lg text-gray-300 mb-8">
           We are immensely grateful to all our contributors and supporters for their invaluable help.
         </p>
